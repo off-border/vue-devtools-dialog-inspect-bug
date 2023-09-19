@@ -2,25 +2,18 @@
 
 Reproduction of Vue-Devtools inspector bug with HTML5 dialog element
 
-## Project setup
-```
-yarn install
-```
+- Run project `yarn && yarn serve`
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- open dev page http://localhost:8080
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- click "open dialog"
 
-### Lints and fixes files
-```
-yarn lint
-```
+- try to inspect elements inside dialog
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Expected behaviour
+
+Hovered elements on page are hightlighted by vue-devtools
+
+### Actual behaviour
+
+Ho githlighs, but whne you click on element - it shows up in vue-devtools tree
